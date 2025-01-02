@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 1, 2025 03:45:44 AM</span></a>
+<a href="#"><span class="badge badge-primary">Jan 2, 2025 03:41:04 AM</span></a>
 </li>
 </ul>
 </div>
@@ -87,7 +87,7 @@
           <div class="test-detail">
             <p class="name">Home page</p>
             <p class="text-sm">
-              <span>3:45:44 AM</span> / <span>00:00:48:399</span>
+              <span>3:41:04 AM</span> / <span>00:00:49:959</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -96,9 +96,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Home page</h5>
-<span class='badge badge-success'>01.01.2025 3:45:44 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:46:33 AM</span>
-<span class='badge badge-default'>00:00:48:399</span>
+<span class='badge badge-success'>01.02.2025 3:41:04 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:54 AM</span>
+<span class='badge badge-default'>00:00:49:959</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -111,7 +111,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Verify user able to land on the Home page successfully</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify user able to land on the Home page successfully</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -187,14 +187,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="fail" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Account Creation API</p>
             <p class="text-sm">
-              <span>3:45:44 AM</span> / <span>00:00:03:044</span>
+              <span>3:41:04 AM</span> / <span>00:00:02:474</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -203,10 +203,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Account Creation API</h5>
-<span class='badge badge-success'>01.01.2025 3:45:44 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:45:48 AM</span>
-<span class='badge badge-default'>00:00:03:044</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-success'>01.02.2025 3:41:04 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:07 AM</span>
+<span class='badge badge-default'>00:00:02:474</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -218,7 +218,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify if Account Creation API is working</div>
+        <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>Verify if Account Creation API is working</div>
       </div>
     </div>
         <div class="">
@@ -338,58 +338,17 @@
           </div>
         </div>
   </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Verify if Account Creation API is working</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="api.stepDefinitions.AccountCreationStep.theUserProvidesValidAccountCreationDetails()">
-                <span>Given the user provides valid account creation details</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="api.stepDefinitions.AccountCreationStep.theUserSendsARequestToCreateAnAccount()">
-                <span>When the user sends a request to create an account</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="api.stepDefinitions.AccountCreationStep.theAPIShouldReturnASuccessMessage(java.lang.String)">
-                <span>Then the API should return a success message "User registered successfully!"</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError: User registered successfully! expected [User registered successfully!] but found [Error: Username is already taken!]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at api.stepDefinitions.AccountCreationStep.theAPIShouldReturnASuccessMessage(AccountCreationStep.java:38)
-	at ✽.the API should return a success message "User registered successfully!"(file:///home/runner/work/SeleniumCucumberFramework/SeleniumCucumberFramework/src/test/resources/api/features/AcountCreation.feature:6)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(java.lang.Integer)">
-                <span>And the status code should be 200</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="25"
+        <li class="test-item"  status="fail" test-id="20"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Forgot Password API</p>
             <p class="text-sm">
-              <span>3:45:48 AM</span> / <span>00:00:02:549</span>
+              <span>3:41:07 AM</span> / <span>00:00:02:553</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -398,10 +357,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Forgot Password API</h5>
-<span class='badge badge-success'>01.01.2025 3:45:48 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:45:50 AM</span>
-<span class='badge badge-default'>00:00:02:549</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-success'>01.02.2025 3:41:07 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:09 AM</span>
+<span class='badge badge-default'>00:00:02:553</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -413,7 +372,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="26"><span class="badge log fail-bg mr-2">Fail</span>Verify if Forgot Password API is working</div>
+        <div class="node" id="21"><span class="badge log fail-bg mr-2">Fail</span>Verify if Forgot Password API is working</div>
       </div>
     </div>
         <div class="">
@@ -432,7 +391,7 @@
                 <span>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</span>
       <div>
         <textarea disabled class="code-block">java.lang.AssertionError: If your email exists in our system, you will receive reset instructions. expected [If your email exists in our system, you will receive reset instructions.] but found [{
-    "timestamp": "Wed Jan 01 03:45:50 UTC 2025",
+    "timestamp": "Thu Jan 02 03:41:09 UTC 2025",
     "status": 401,
     "error": "Unauthorized",
     "message": "Full authentication is required to access this resource",
@@ -460,14 +419,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="31"
+        <li class="test-item"  status="fail" test-id="26"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Get User Profile API</p>
             <p class="text-sm">
-              <span>3:45:50 AM</span> / <span>00:00:01:051</span>
+              <span>3:41:09 AM</span> / <span>00:00:01:001</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -476,10 +435,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Get User Profile API</h5>
-<span class='badge badge-success'>01.01.2025 3:45:50 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:45:51 AM</span>
-<span class='badge badge-default'>00:00:01:051</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-success'>01.02.2025 3:41:09 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:10 AM</span>
+<span class='badge badge-default'>00:00:01:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -491,7 +450,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>Verify if Get Profile API is working</div>
+        <div class="node" id="27"><span class="badge log fail-bg mr-2">Fail</span>Verify if Get Profile API is working</div>
       </div>
     </div>
         <div class="">
@@ -527,14 +486,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="37"
+        <li class="test-item"  status="pass" test-id="32"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Login API</p>
             <p class="text-sm">
-              <span>3:45:51 AM</span> / <span>00:00:00:550</span>
+              <span>3:41:10 AM</span> / <span>00:00:00:522</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -543,10 +502,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Login API</h5>
-<span class='badge badge-success'>01.01.2025 3:45:51 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:45:52 AM</span>
-<span class='badge badge-default'>00:00:00:550</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-success'>01.02.2025 3:41:10 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:11 AM</span>
+<span class='badge badge-default'>00:00:00:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -558,7 +517,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>Verify login API is working</div>
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Verify login API is working</div>
       </div>
     </div>
         <div class="collapse">
@@ -594,14 +553,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="44"
+        <li class="test-item"  status="fail" test-id="39"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Update User Profile</p>
             <p class="text-sm">
-              <span>3:45:52 AM</span> / <span>00:00:01:014</span>
+              <span>3:41:11 AM</span> / <span>00:00:00:950</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -610,10 +569,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Update User Profile</h5>
-<span class='badge badge-success'>01.01.2025 3:45:52 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:45:53 AM</span>
-<span class='badge badge-default'>00:00:01:014</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span class='badge badge-success'>01.02.2025 3:41:11 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:41:12 AM</span>
+<span class='badge badge-default'>00:00:00:950</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -625,7 +584,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="45"><span class="badge log fail-bg mr-2">Fail</span>Verify user can update their profile information successfully</div>
+        <div class="node" id="40"><span class="badge log fail-bg mr-2">Fail</span>Verify user can update their profile information successfully</div>
       </div>
     </div>
         <div class="">
@@ -672,14 +631,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="58"
+        <li class="test-item"  status="pass" test-id="53"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Login Functionality</p>
             <p class="text-sm">
-              <span>3:46:33 AM</span> / <span>00:00:47:333</span>
+              <span>3:41:54 AM</span> / <span>00:00:31:487</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -688,10 +647,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Login Functionality</h5>
-<span class='badge badge-success'>01.01.2025 3:46:33 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:47:20 AM</span>
-<span class='badge badge-default'>00:00:47:333</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span class='badge badge-success'>01.02.2025 3:41:54 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:42:26 AM</span>
+<span class='badge badge-default'>00:00:31:487</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -703,7 +662,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>Verify user log in with valid credentials</div>
+        <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>Verify user log in with valid credentials</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -713,7 +672,7 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>Verify user log in with valid credentials</div>
+                  <div class="node" id="55"><span class="badge log pass-bg mr-2">Pass</span>Verify user log in with valid credentials</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -827,7 +786,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Verify user cannot log in with invalid credentials</div>
+        <div class="node" id="68"><span class="badge log pass-bg mr-2">Pass</span>Verify user cannot log in with invalid credentials</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -837,7 +796,7 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="74"><span class="badge log pass-bg mr-2">Pass</span>Verify user cannot log in with invalid credentials</div>
+                  <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Verify user cannot log in with invalid credentials</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -971,14 +930,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="89"
+        <li class="test-item"  status="pass" test-id="84"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">My Account Page Functionality</p>
             <p class="text-sm">
-              <span>3:47:20 AM</span> / <span>00:00:19:289</span>
+              <span>3:42:26 AM</span> / <span>00:00:18:240</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -987,10 +946,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">My Account Page Functionality</h5>
-<span class='badge badge-success'>01.01.2025 3:47:20 AM</span>
-<span class='badge badge-danger'>01.01.2025 3:47:39 AM</span>
-<span class='badge badge-default'>00:00:19:289</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=89</span>
+<span class='badge badge-success'>01.02.2025 3:42:26 AM</span>
+<span class='badge badge-danger'>01.02.2025 3:42:44 AM</span>
+<span class='badge badge-default'>00:00:18:240</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=84</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -1002,7 +961,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Verify user see username on My Account Page</div>
+        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>Verify user see username on My Account Page</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -1012,7 +971,7 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Verify user see username on My Account Page</div>
+                  <div class="node" id="86"><span class="badge log pass-bg mr-2">Pass</span>Verify user see username on My Account Page</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -1187,9 +1146,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:51 AM</td>
+<td>03:41:10 AM</td>
 <td>
-<a href="#" class="linked" test-id='31' id='36'>And the status code should be 200</a>
+<a href="#" class="linked" test-id='26' id='31'>And the status code should be 200</a>
 <div class="">
 <span class="badge badge-default">Get User Profile API.Verify if Get Profile API is working.And the status code should be 200</span>
 </div>
@@ -1202,15 +1161,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>6</span>
+<span class='badge log badge-danger'>5</span>
 </span>
 <p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">6 tests</p>
+<p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>6 failed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1223,9 +1182,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:46 AM</td>
+<td>03:41:06 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='8'>Then the API should return a success message "User registered successfully!"</a>
+<a href="#" class="linked" test-id='4' id='8'>Then the API should return a success message "User registered successfully!"</a>
 <div class="">
 <span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
 </div>
@@ -1233,9 +1192,9 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:47 AM</td>
+<td>03:41:06 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='13'>Then the API should return a success message "User registered successfully!"</a>
+<a href="#" class="linked" test-id='4' id='13'>Then the API should return a success message "User registered successfully!"</a>
 <div class="">
 <span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
 </div>
@@ -1243,9 +1202,9 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:47 AM</td>
+<td>03:41:07 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='18'>Then the API should return a success message "User registered successfully!"</a>
+<a href="#" class="linked" test-id='4' id='18'>Then the API should return a success message "User registered successfully!"</a>
 <div class="">
 <span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
 </div>
@@ -1253,19 +1212,9 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:48 AM</td>
+<td>03:41:09 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='23'>Then the API should return a success message "User registered successfully!"</a>
-<div class="">
-<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:50 AM</td>
-<td>
-<a href="#" class="linked" test-id='25' id='29'>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</a>
+<a href="#" class="linked" test-id='20' id='24'>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</a>
 <div class="">
 <span class="badge badge-default">Forgot Password API.Verify if Forgot Password API is working.Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</span>
 </div>
@@ -1273,9 +1222,9 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:45:53 AM</td>
+<td>03:41:12 AM</td>
 <td>
-<a href="#" class="linked" test-id='44' id='48'>Then the username in the profile should be "dikeje123"</a>
+<a href="#" class="linked" test-id='39' id='43'>Then the username in the profile should be "dikeje123"</a>
 <div class="">
 <span class="badge badge-default">Update User Profile.Verify user can update their profile information successfully.Then the username in the profile should be "dikeje123"</span>
 </div>
@@ -1298,13 +1247,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 1, 2025 03:45:44 AM</h3>
+<h3>Jan 2, 2025 03:41:04 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 1, 2025 03:47:40 AM</h3>
+<h3>Jan 2, 2025 03:42:44 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1355,9 +1304,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='41%'><b>5</b> scenarios passed</small></div>
+<div><small data-tooltip='45%'><b>5</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='58%'><b>7</b> scenarios failed,
+<small data-tooltip='54%'><b>6</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1375,10 +1324,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='81%'><b>60</b> steps passed</small></div>
+<div><small data-tooltip='82%'><b>58</b> steps passed</small></div>
 <div>
-<small data-tooltip='9%'><b>7</b> steps failed,
-<b>7</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='8%'><b>6</b> steps failed,
+<b>6</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -1394,7 +1343,7 @@
 </div></div>
 <script>
 var timeline = {
-"Home page":48.399,"Account Creation API":3.044,"Forgot Password API":2.549,"Get User Profile API":1.051,"Login API":0.55,"Update User Profile":1.014,"Login Functionality":47.333,"My Account Page Functionality":19.289
+"Home page":49.959,"Account Creation API":2.474,"Forgot Password API":2.553,"Get User Profile API":1.001,"Login API":0.522,"Update User Profile":0.95,"Login Functionality":31.487,"My Account Page Functionality":18.24
 };
 </script>
 <div class="row">
@@ -1409,15 +1358,15 @@ warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 5,
-failChild: 7,
+failChild: 6,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 60,
-failGrandChild: 7,
+passGrandChild: 58,
+failGrandChild: 6,
 warningGrandChild: 0,
-skipGrandChild: 7,
+skipGrandChild: 6,
 infoGrandChild: 0,
 eventsCount: 5,
 };
