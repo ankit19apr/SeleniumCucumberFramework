@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 8, 2025 03:37:55 AM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 9, 2025 03:39:15 AM</span></a>
 </li>
 </ul>
 </div>
@@ -84,9 +84,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Account Creation API</p>
+            <p class="name">Home page</p>
             <p class="text-sm">
-              <span>3:37:55 AM</span> / <span>00:00:03:202</span>
+              <span>3:39:15 AM</span> / <span>00:00:04:154</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -94,10 +94,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Account Creation API</h5>
-<span class='badge badge-success'>02.08.2025 3:37:55 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:37:59 AM</span>
-<span class='badge badge-default'>00:00:03:202</span>
+<h5 class="test-status text-fail">Home page</h5>
+<span class='badge badge-success'>02.09.2025 3:39:15 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:19 AM</span>
+<span class='badge badge-default'>00:00:04:154</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -110,7 +110,92 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify if Account Creation API is working</div>
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify user able to land on the Home page successfully</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: All minutes for this organization has been exhausted 
+Host info: host: 'fv-az1065-151', ip: '10.1.0.161'
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1020-azure', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Selenium Cucumber, name: Verify user able to land on..., platformName: Windows 10, seCdp: true, selenium_version: 4.23.0, user: ankitqatechie}, browserName: chrome, browserVersion: 127}]}]
+Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Selenium Cucumber, name: Verify user able to land on..., platformName: Windows 10, seCdp: true, selenium_version: 4.23.0, user: ankitqatechie}, browserName: chrome, browserVersion: 127}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+	at ui.utility.LambdaTestUtility.initializeLambdaTestSession(LambdaTestUtility.java:41)
+	at ui.stepDefinitions.TestBase.setup(TestBase.java:21)
+	at ui.stepDefinitions.Hooks.initializeTest(Hooks.java:19)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userNavigateToHomePagePage()">
+                <span>Given user navigate to HomePage page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userShouldBeAbleToViewTheHomePageUIWithWebElements(io.cucumber.datatable.DataTable)">
+                <span>When user should be able to view the Home Page UI with web elements</span>
+      <div><table class='markup-table table '><tr><td>Home Page Logo</td></tr><tr><td>View My Cart</td></tr><tr><td>Search Text Box</td></tr><tr><td>Login Link</td></tr><tr><td>Contact Us Link</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userClickOnLoginLink()">
+                <span>Then user click on login link</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Account Creation API</p>
+            <p class="text-sm">
+              <span>3:39:15 AM</span> / <span>00:00:02:896</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Account Creation API</h5>
+<span class='badge badge-success'>02.09.2025 3:39:15 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:18 AM</span>
+<span class='badge badge-default'>00:00:02:896</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Verify if Account Creation API is working</div>
       </div>
     </div>
         <div class="">
@@ -125,19 +210,24 @@
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="api.stepDefinitions.AccountCreationStep.theAPIShouldReturnASuccessMessage(java.lang.String)">
+              <div class="step fail-bg" title="api.stepDefinitions.AccountCreationStep.theAPIShouldReturnASuccessMessage(java.lang.String)">
                 <span>Then the API should return a success message "User registered successfully!"</span>
       <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(java.lang.Integer)">
-                <span>And the status code should be 200</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.response" is null
-	at api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(LoginApiStep.java:31)
-	at ✽.the status code should be 200(file:///home/runner/work/SeleniumCucumberFramework/SeleniumCucumberFramework/src/test/resources/api/features/AcountCreation.feature:7)
+        <textarea disabled class="code-block">java.lang.AssertionError: User registered successfully! expected [User registered successfully!] but found [Error: Username is already taken!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at api.stepDefinitions.AccountCreationStep.theAPIShouldReturnASuccessMessage(AccountCreationStep.java:38)
+	at ✽.the API should return a success message "User registered successfully!"(file:///home/runner/work/SeleniumCucumberFramework/SeleniumCucumberFramework/src/test/resources/api/features/AcountCreation.feature:6)
 </textarea>
       
+      </div>
+              </div>
+              <div class="step skip-bg" title="api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(java.lang.Integer)">
+                <span>And the status code should be 200</span>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -269,91 +359,6 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Home page</p>
-            <p class="text-sm">
-              <span>3:37:55 AM</span> / <span>00:00:04:405</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Home page</h5>
-<span class='badge badge-success'>02.08.2025 3:37:55 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:00 AM</span>
-<span class='badge badge-default'>00:00:04:405</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Verify user able to land on the Home page successfully</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" title="BEFORE">
-                <span>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: All minutes for this organization has been exhausted 
-Host info: host: 'fv-az1043-158', ip: '10.1.0.176'
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1020-azure', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Selenium Cucumber, name: Verify user able to land on..., platformName: Windows 10, seCdp: true, selenium_version: 4.23.0, user: ankitqatechie}, browserName: chrome, browserVersion: 127}]}]
-Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Selenium Cucumber, name: Verify user able to land on..., platformName: Windows 10, seCdp: true, selenium_version: 4.23.0, user: ankitqatechie}, browserName: chrome, browserVersion: 127}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-	at ui.utility.LambdaTestUtility.initializeLambdaTestSession(LambdaTestUtility.java:41)
-	at ui.stepDefinitions.TestBase.setup(TestBase.java:21)
-	at ui.stepDefinitions.Hooks.initializeTest(Hooks.java:19)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userNavigateToHomePagePage()">
-                <span>Given user navigate to HomePage page</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userShouldBeAbleToViewTheHomePageUIWithWebElements(io.cucumber.datatable.DataTable)">
-                <span>When user should be able to view the Home Page UI with web elements</span>
-      <div><table class='markup-table table '><tr><td>Home Page Logo</td></tr><tr><td>View My Cart</td></tr><tr><td>Search Text Box</td></tr><tr><td>Login Link</td></tr><tr><td>Contact Us Link</td></tr></table>
-      </div>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="ui.stepDefinitions.HomePageSteps.userClickOnLoginLink()">
-                <span>Then user click on login link</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
         <li class="test-item"  status="fail" test-id="25"
           author=""
           tag=""
@@ -361,7 +366,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
           <div class="test-detail">
             <p class="name">Forgot Password API</p>
             <p class="text-sm">
-              <span>3:37:59 AM</span> / <span>00:00:04:198</span>
+              <span>3:39:18 AM</span> / <span>00:00:00:440</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -370,9 +375,9 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Forgot Password API</h5>
-<span class='badge badge-success'>02.08.2025 3:37:59 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:03 AM</span>
-<span class='badge badge-default'>00:00:04:198</span>
+<span class='badge badge-success'>02.09.2025 3:39:18 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:19 AM</span>
+<span class='badge badge-default'>00:00:00:440</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -404,7 +409,13 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
                 <span>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</span>
       <div>
         <textarea disabled class="code-block">java.lang.AssertionError: If your email exists in our system, you will receive reset instructions. expected [If your email exists in our system, you will receive reset instructions.] but found [{
-    "message": "If your email exists in our system, you will receive reset instructions."
+    "timestamp": "2025-02-09 03:39:18",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
 }]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -428,14 +439,14 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="36"
+        <li class="test-item"  status="fail" test-id="31"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Functionality</p>
+            <p class="name">Get User Profile API</p>
             <p class="text-sm">
-              <span>3:38:00 AM</span> / <span>00:00:07:575</span>
+              <span>3:39:19 AM</span> / <span>00:00:00:931</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -443,11 +454,11 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Functionality</h5>
-<span class='badge badge-success'>02.08.2025 3:38:00 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:07 AM</span>
-<span class='badge badge-default'>00:00:07:575</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<h5 class="test-status text-fail">Get User Profile API</h5>
+<span class='badge badge-success'>02.09.2025 3:39:19 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:19 AM</span>
+<span class='badge badge-default'>00:00:00:931</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -459,14 +470,81 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="37"><span class="badge log fail-bg mr-2">Fail</span>Verify user log in with valid credentials</div>
+        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>Verify if Get Profile API is working</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theUserLogsInWithUsernameAndPassword(java.lang.String,java.lang.String)">
+                <span>Given the user logs in with username "dikeje123" and password "viraaj123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theUserSendsARequestToFetchTheirProfile()">
+                <span>When the user sends a request to fetch their profile</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theAPIShouldReturnTheUsernameAs(java.lang.String)">
+                <span>Then the API should return the username as "dikeje123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(java.lang.Integer)">
+                <span>And the status code should be 200</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.response" is null
+	at api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(LoginApiStep.java:31)
+	at ✽.the status code should be 200(file:///home/runner/work/SeleniumCucumberFramework/SeleniumCucumberFramework/src/test/resources/api/features/GetProfile.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="42"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Functionality</p>
+            <p class="text-sm">
+              <span>3:39:19 AM</span> / <span>00:00:06:265</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Functionality</h5>
+<span class='badge badge-success'>02.09.2025 3:39:19 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:26 AM</span>
+<span class='badge badge-default'>00:00:06:265</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>Verify user log in with valid credentials</div>
       </div>
     </div>
         <div class="scenario_outline ">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="38"><span class="badge log fail-bg mr-2">Fail</span>Verify user log in with valid credentials</div>
+                  <div class="node" id="44"><span class="badge log fail-bg mr-2">Fail</span>Verify user log in with valid credentials</div>
                 </div>
               </div>
               <div class="card-body mt-3 ">
@@ -474,7 +552,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
                     <span>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
       <div>
         <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: All minutes for this organization has been exhausted 
-Host info: host: 'fv-az1043-158', ip: '10.1.0.176'
+Host info: host: 'fv-az1065-151', ip: '10.1.0.161'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1020-azure', java.version: '21.0.6'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -528,14 +606,14 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="56"><span class="badge log fail-bg mr-2">Fail</span>Verify user cannot log in with invalid credentials</div>
+        <div class="node" id="73"><span class="badge log fail-bg mr-2">Fail</span>Verify user cannot log in with invalid credentials</div>
       </div>
     </div>
         <div class="scenario_outline ">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>Verify user cannot log in with invalid credentials</div>
+                  <div class="node" id="74"><span class="badge log fail-bg mr-2">Fail</span>Verify user cannot log in with invalid credentials</div>
                 </div>
               </div>
               <div class="card-body mt-3 ">
@@ -543,7 +621,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
                     <span>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
       <div>
         <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: All minutes for this organization has been exhausted 
-Host info: host: 'fv-az1043-158', ip: '10.1.0.176'
+Host info: host: 'fv-az1065-151', ip: '10.1.0.161'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1020-azure', java.version: '21.0.6'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -602,81 +680,14 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="42"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Get User Profile API</p>
-            <p class="text-sm">
-              <span>3:38:03 AM</span> / <span>00:00:01:020</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Get User Profile API</h5>
-<span class='badge badge-success'>02.08.2025 3:38:03 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:04 AM</span>
-<span class='badge badge-default'>00:00:01:020</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>Verify if Get Profile API is working</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theUserLogsInWithUsernameAndPassword(java.lang.String,java.lang.String)">
-                <span>Given the user logs in with username "dikeje123" and password "viraaj123"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theUserSendsARequestToFetchTheirProfile()">
-                <span>When the user sends a request to fetch their profile</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="api.stepDefinitions.GetProfileStep.theAPIShouldReturnTheUsernameAs(java.lang.String)">
-                <span>Then the API should return the username as "dikeje123"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(java.lang.Integer)">
-                <span>And the status code should be 200</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.response" is null
-	at api.stepDefinitions.LoginApiStep.verifyResponseStatusCode(LoginApiStep.java:31)
-	at ✽.the status code should be 200(file:///home/runner/work/SeleniumCucumberFramework/SeleniumCucumberFramework/src/test/resources/api/features/GetProfile.feature:7)
-</textarea>
-      
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="62"
+        <li class="test-item"  status="fail" test-id="48"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Login API</p>
             <p class="text-sm">
-              <span>3:38:04 AM</span> / <span>00:00:00:536</span>
+              <span>3:39:20 AM</span> / <span>00:00:00:498</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -685,10 +696,10 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login API</h5>
-<span class='badge badge-success'>02.08.2025 3:38:04 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:04 AM</span>
-<span class='badge badge-default'>00:00:00:536</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span class='badge badge-success'>02.09.2025 3:39:20 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:20 AM</span>
+<span class='badge badge-default'>00:00:00:498</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -700,7 +711,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="63"><span class="badge log fail-bg mr-2">Fail</span>Verify login API is working</div>
+        <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>Verify login API is working</div>
       </div>
     </div>
         <div class="">
@@ -747,14 +758,14 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="69"
+        <li class="test-item"  status="fail" test-id="55"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Update User Profile</p>
             <p class="text-sm">
-              <span>3:38:04 AM</span> / <span>00:00:00:972</span>
+              <span>3:39:20 AM</span> / <span>00:00:00:903</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -763,10 +774,10 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Update User Profile</h5>
-<span class='badge badge-success'>02.08.2025 3:38:04 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:05 AM</span>
-<span class='badge badge-default'>00:00:00:972</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=69</span>
+<span class='badge badge-success'>02.09.2025 3:39:20 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:21 AM</span>
+<span class='badge badge-default'>00:00:00:903</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -778,7 +789,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="70"><span class="badge log fail-bg mr-2">Fail</span>Verify user can update their profile information successfully</div>
+        <div class="node" id="56"><span class="badge log fail-bg mr-2">Fail</span>Verify user can update their profile information successfully</div>
       </div>
     </div>
         <div class="">
@@ -832,7 +843,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
           <div class="test-detail">
             <p class="name">My Account Page Functionality</p>
             <p class="text-sm">
-              <span>3:38:07 AM</span> / <span>00:00:03:157</span>
+              <span>3:39:26 AM</span> / <span>00:00:03:151</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -841,9 +852,9 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">My Account Page Functionality</h5>
-<span class='badge badge-success'>02.08.2025 3:38:07 AM</span>
-<span class='badge badge-danger'>02.08.2025 3:38:11 AM</span>
-<span class='badge badge-default'>00:00:03:157</span>
+<span class='badge badge-success'>02.09.2025 3:39:26 AM</span>
+<span class='badge badge-danger'>02.09.2025 3:39:29 AM</span>
+<span class='badge badge-default'>00:00:03:151</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=89</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -871,7 +882,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
                     <span>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
       <div>
         <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: All minutes for this organization has been exhausted 
-Host info: host: 'fv-az1043-158', ip: '10.1.0.176'
+Host info: host: 'fv-az1065-151', ip: '10.1.0.161'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1020-azure', java.version: '21.0.6'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -950,138 +961,6 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
-</span>
-<p class="name">java.lang.NullPointerException</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>java.lang.NullPointerException</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:37:57 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='9'>And the status code should be 200</a>
-<div class="">
-<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.And the status code should be 200</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:04 AM</td>
-<td>
-<a href="#" class="linked" test-id='42' id='61'>And the status code should be 200</a>
-<div class="">
-<span class="badge badge-default">Get User Profile API.Verify if Get Profile API is working.And the status code should be 200</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>6</span>
-</span>
-<p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">6 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>6 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:37:58 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='13'>Then the API should return a success message "User registered successfully!"</a>
-<div class="">
-<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:37:58 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='18'>Then the API should return a success message "User registered successfully!"</a>
-<div class="">
-<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:37:59 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='23'>Then the API should return a success message "User registered successfully!"</a>
-<div class="">
-<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:03 AM</td>
-<td>
-<a href="#" class="linked" test-id='25' id='40'>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</a>
-<div class="">
-<span class="badge badge-default">Forgot Password API.Verify if Forgot Password API is working.Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:04 AM</td>
-<td>
-<a href="#" class="linked" test-id='62' id='66'>Then the status code should be 200</a>
-<div class="">
-<span class="badge badge-default">Login API.Verify login API is working.Then the status code should be 200</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:05 AM</td>
-<td>
-<a href="#" class="linked" test-id='69' id='73'>Then the username in the profile should be "dikeje123"</a>
-<div class="">
-<span class="badge badge-default">Update User Profile.Verify user can update their profile information successfully.Then the username in the profile should be "dikeje123"</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
 <span class='badge log badge-danger'>4</span>
 </span>
 <p class="name">org.openqa.selenium.SessionNotCreatedException</p>
@@ -1103,9 +982,9 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:37:55 AM</td>
+<td>03:39:15 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='5'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
+<a href="#" class="linked" test-id='1' id='5'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
 <div class="">
 <span class="badge badge-default">Home page.Verify user able to land on the Home page successfully.ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
 </div>
@@ -1113,9 +992,9 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:00 AM</td>
+<td>03:39:19 AM</td>
 <td>
-<a href="#" class="linked" test-id='36' id='39'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
+<a href="#" class="linked" test-id='42' id='45'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
 <div class="">
 <span class="badge badge-default">Login Functionality.Verify user log in with valid credentials.ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
 </div>
@@ -1123,9 +1002,9 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:03 AM</td>
+<td>03:39:23 AM</td>
 <td>
-<a href="#" class="linked" test-id='36' id='58'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
+<a href="#" class="linked" test-id='42' id='75'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
 <div class="">
 <span class="badge badge-default">Login Functionality.Verify user cannot log in with invalid credentials.ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
 </div>
@@ -1133,11 +1012,143 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>03:38:07 AM</td>
+<td>03:39:26 AM</td>
 <td>
 <a href="#" class="linked" test-id='89' id='92'>ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</a>
 <div class="">
 <span class="badge badge-default">My Account Page Functionality.Verify user see username on My Account Page.ui.stepDefinitions.Hooks.initializeTest(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='8'>Then the API should return a success message "User registered successfully!"</a>
+<div class="">
+<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='13'>Then the API should return a success message "User registered successfully!"</a>
+<div class="">
+<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='18'>Then the API should return a success message "User registered successfully!"</a>
+<div class="">
+<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='23'>Then the API should return a success message "User registered successfully!"</a>
+<div class="">
+<span class="badge badge-default">Account Creation API.Verify if Account Creation API is working.Then the API should return a success message "User registered successfully!"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='29'>Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</a>
+<div class="">
+<span class="badge badge-default">Forgot Password API.Verify if Forgot Password API is working.Then the API should return a success message for forgot password "If your email exists in our system, you will receive reset instructions."</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='48' id='52'>Then the status code should be 200</a>
+<div class="">
+<span class="badge badge-default">Login API.Verify login API is working.Then the status code should be 200</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='59'>Then the username in the profile should be "dikeje123"</a>
+<div class="">
+<span class="badge badge-default">Update User Profile.Verify user can update their profile information successfully.Then the username in the profile should be "dikeje123"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='47'>And the status code should be 200</a>
+<div class="">
+<span class="badge badge-default">Get User Profile API.Verify if Get Profile API is working.And the status code should be 200</span>
 </div>
 </td>
 </tr>
@@ -1158,13 +1169,13 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 8, 2025 03:37:55 AM</h3>
+<h3>Feb 9, 2025 03:39:15 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 8, 2025 03:38:11 AM</h3>
+<h3>Feb 9, 2025 03:39:29 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1235,10 +1246,10 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='31%'><b>18</b> steps passed</small></div>
+<div><small data-tooltip='29%'><b>17</b> steps passed</small></div>
 <div>
 <small data-tooltip='20%'><b>12</b> steps failed,
-<b>28</b> skipped, <b data-tooltip='%'>0</b> others
+<b>29</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -1254,7 +1265,7 @@ Capabilities {LT:Options: {accessKey: qcAAZkom4NiVZaRidReoCUJtD94..., build: Sel
 </div></div>
 <script>
 var timeline = {
-"Account Creation API":3.202,"Home page":4.405,"Forgot Password API":4.198,"Login Functionality":7.575,"Get User Profile API":1.02,"Login API":0.536,"Update User Profile":0.972,"My Account Page Functionality":3.157
+"Home page":4.154,"Account Creation API":2.896,"Forgot Password API":0.44,"Get User Profile API":0.931,"Login Functionality":6.265,"Login API":0.498,"Update User Profile":0.903,"My Account Page Functionality":3.151
 };
 </script>
 <div class="row">
@@ -1274,10 +1285,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 18,
+passGrandChild: 17,
 failGrandChild: 12,
 warningGrandChild: 0,
-skipGrandChild: 28,
+skipGrandChild: 29,
 infoGrandChild: 0,
 eventsCount: 5,
 };
